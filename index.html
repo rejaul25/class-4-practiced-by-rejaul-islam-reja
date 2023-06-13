@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-4-practice-by-rejaul-islam-reja</title>
+
+
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-family: 'Signika Negative', sans-serif;
+        }
+
+        .all-content {
+            width: 100%;
+            user-select: none;
+            height: fit-content;
+        }
+
+        .item-head {
+            text-align: center;
+            padding: 15px;
+            background-color: #fff;
+
+            overflow: hidden !important;
+
+        }
+
+        .all-list-style {
+            width: 100%;
+            height: 550px;
+            background-color: #f2f2f2;
+
+            overflow: hidden !important;
+
+        }
+
+        .un-list-head {
+            text-align: center;
+            margin: 25px 0px 25px 0px;
+
+            color: green;
+            overflow: hidden !important;
+        }
+
+        .un-order-list {
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 45px;
+            line-height: 1.5;
+            font-size: 1.2rem;
+
+            overflow: hidden !important;
+
+
+        }
+
+        .circle {
+            margin-left: 0;
+        }
+
+        .disc {
+            margin-left: 45px;
+        }
+
+        .sqr {
+            margin-left: 45px;
+        }
+
+
+
+
+        /* .................. */
+
+        .order-list {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 36px;
+
+            font-size: 1.2rem;
+            line-height: 1.4;
+            overflow: hidden !important;
+        }
+
+        .order-list-head {
+            text-align: center;
+            margin: 35px 0px 40px 0px;
+            font-size: 1rem;
+            color: green;
+
+            overflow: hidden !important;
+
+        }
+
+        .container2 {
+            width: 100%;
+            height: 40vw;
+
+        }
+
+
+
+
+
+        .table2,
+        th,
+        tr,
+        td {
+
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: auto;
+
+
+        }
+
+        .table2 {
+
+            width: 70%;
+            height: 70vh;
+            text-align: center;
+            background-color: #f2f2f2;
+
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+        }
+
+        .table2 tr th {
+            color: lightseagreen;
+        }
+
+        .con-2-head {
+            text-align: center;
+            margin-top: 95px;
+            margin-bottom: 65px;
+            color: green;
+
+        }
+
+        .f-con-head {
+            text-align: center;
+            padding: 35px;
+            color: green;
+
+        }
+
+        .f-container {
+            width: 100%;
+            height: 670px;
+            margin-top: 65px;
+
+        }
+
+        .f-container table {
+            background-color: lightseagreen;
+            height: 40vw;
+            text-align: center;
+            font-size: 1.1rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            border: 0.5px solid black;
+            border-collapse: collapse;
+            margin: auto;
+            width: 70%;
+
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .all-list-style {
+                width: 1200px;
+                height: 450px;
+                background-color: #f2f2f2;
+            }
+
+
+
+
+            .un-order-list {
+
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 45px;
+                line-height: 1.5;
+                font-size: 0.9rem;
+
+            }
+
+            .order-list {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 36px;
+                margin-left: 35px;
+                font-size: 0.4rem;
+                line-height: 1.4;
+            }
+
+
+            .container2 table {
+                width: 1000px;
+                height: 400px;
+                margin-left: 95px;
+            }
+
+            .con-2-head {
+                width: 1200px;
+                height: fit-content;
+            }
+
+            .f-container table {
+                width: 1000px;
+                height: 500px;
+                margin-left: 95px;
+
+            }
+
+            .f-con-head {
+                width: 1200px;
+                height: fit-content;
+            }
+
+
+
+
+
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .all-list-style {
+                width: 1200px;
+                height: 450px;
+                background-color: #f2f2f2;
+                font-size: 1rem;
+            }
+
+
+
+
+            .un-order-list {
+
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 45px;
+                line-height: 1.5;
+                font-size: 0.9rem;
+
+            }
+
+            .container2 table {
+                width: 1000px;
+                margin-left: 85px;
+            }
+
+            .con-2-head {
+                width: 1200px;
+            }
+
+           .f-container{
+            margin-top: 365px;
+           }
+
+            .f-container table {
+                width: 1000px;
+                height: 500px;
+                margin-left: 95px;
+
+            }
+
+            .f-con-head {
+                width: 1200px;
+              
+                height: fit-content;
+            }
+
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="all-content">
+
+
+        <div class="all-list-style">
+
+            <div class="item-head">
+                <h1>Different types of list order!</h1>
+            </div>
+
+            <div class="un-list-head">
+                <h2>This is Unorder-list items</h2>
+            </div>
+
+            <div class="un-order-list">
+                <!-- This is unorder list item and circule type  -->
+
+                <ul style="list-style-type:circle" class="circle">
+                    <li>REJAUL</li>
+                    <li>STUDENT</li>
+                    <li>AND</li>
+                </ul>
+
+                <!-- This is unorder list item and disc type ! -->
+                <ul style="list-style-type:disc" class="disc">
+
+                    <li>ISLAM</li>
+                    <li>OF</li>
+                    <li>WEB</li>
+                </ul>
+                <!-- This is unorder list item and square type -->
+                <ul style="list-style-type:square" class="sqr">
+
+                    <li>REJA</li>
+                    <li>WEB</li>
+                    <li>DEVELOPMENT</li>
+                </ul>
+
+            </div>
+            <hr style="margin-top: 45px; width: 50%; margin-left: 340px; padding: 0.2px;  background-color: red;"
+                class="hr-media">
+
+            <div class="order-list-head">
+                <h2>This is order list items</h2>
+            </div>
+
+            <div class="order-list">
+
+
+                <ol style="list-style-type: circle;margin-left: 25px;">
+                    <li>News</li>
+                    <li>Politics</li>
+                    <li>Trending</li>
+                </ol>
+
+                <ol style="list-style-type: disc; margin-left: 25px;">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                </ol>
+                <ol style="list-style-type: square; margin-left: 25px;">
+
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                </ol>
+
+                <ol style="list-style-type: lower-alpha ; margin-left: 25px;">
+
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                </ol>
+                <ol style="list-style-type: number ; margin-left: 25px;">
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                </ol>
+                <ol style="list-style-type: upper-alpha ; margin-left: 25px;">
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                </ol>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="container2">
+
+            <div class="con-2-head">
+
+                <h2> Table Design 1</h2>
+
+            </div>
+
+            <table class="table2">
+
+                <tr>
+                    <th>Day/Period</th>
+                    <th>9:30-10:20</th>
+                    <th>10:20-11:10</th>
+                    <th>11:10-12:00</th>
+                    <th>12:00-12:40</th>
+                    <th>12:40-1:30</th>
+                    <th>1:30-2:20</th>
+                    <th>2:20-3:10</th>
+                    <th>3:10-4:00</th>
+                </tr>
+                <tr>
+                    <th>Sunday</th>
+                    <td>Eng</td>
+                    <td>Math</td>
+                    <td>Che</td>
+                    <td rowspan="8" style="font-size: 1.6rem;">L <br> U <br> N <br> C <br> H</td>
+                    <td colspan="3">Lab</td>
+                    <td>Phy</td>
+
+                </tr>
+
+                <tr>
+                    <th>Monday</th>
+                    <td colspan="3">LAB</td>
+                    <td>Eng</td>
+                    <td>Che</td>
+                    <td>Math</td>
+                    <td>Sports</td>
+
+                </tr>
+
+                <tr>
+                    <th>Tuesday</th>
+                    <td>Math</td>
+                    <td>Phy</td>
+                    <td>Eng</td>
+                    <td>Che</td>
+                    <td colspan="3">Library</td>
+
+                </tr>
+
+                <tr>
+                    <th>Wednesday</th>
+                    <td>Phy</td>
+                    <td>Eng</td>
+                    <td>Che</td>
+                    <td colspan="3">Lab</td>
+                    <td>Math </td>
+
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <td colspan="3">LAB</td>
+                    <td>Eng</td>
+                    <td>Che</td>
+                    <td>Math</td>
+                    <td>Sport</td>
+                </tr>
+
+
+            </table>
+
+
+        </div> <br><br><br>
+
+
+        <div class="f-container">
+
+            <div class="f-con-head">
+                <h2>This is Table Design 2</h2>
+            </div>
+
+            <table>
+
+                <tr>
+                    <th rowspan="2">Row <br><br> Spacing</th>
+                    <th rowspan="2">Number of <br> ploughing <br> passes</th>
+                    <th colspan="3">plane can crop</th>
+                    <th colspan="3">First raton crop</th>
+                    <th colspan="2">Total</th>
+
+
+                </tr>
+
+                <tr>
+                    <td>G-96</td>
+                    <td colspan="2">text</td>
+
+                    <td>text</td>
+                    <td colspan="2">text</td>
+                    <td>Some</td>
+                    <td>Some</td>
+
+
+
+
+                </tr>
+                <tr>
+                    <td rowspan="2">G-96</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td rowspan="8">text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td rowspan="8">text</td>
+                    <td>Some</td>
+                    <td>Some</td>
+
+
+                </tr>
+
+                <tr>
+                    <td colspan="3">G-96</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+
+
+
+
+
+                </tr>
+                <tr>
+                    <td rowspan="2">G-96</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+
+                </tr>
+                <tr>
+                    <td>G-96</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+
+
+
+                </tr>
+                <tr>
+                    <td colspan="3">G-96</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+
+
+
+
+                </tr>
+                <tr>
+                    <td>G-96</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td>text</td>
+
+
+
+                </tr>
+
+
+
+            </table>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
